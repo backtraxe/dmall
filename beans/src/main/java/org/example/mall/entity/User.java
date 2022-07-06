@@ -10,9 +10,14 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class User {
+
     private int userID;
+
     private String userName;
+
     private String userPwd;
+
     private String userRealName;
+
     private String userImg;
 }
